@@ -1,58 +1,39 @@
-<h1> ahmed - Active direcortyHomeLab</h1>
+<h1>Ahmed - Active Directory HomeLab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project includes a straightforward PowerShell script designed to guide users through "zeroing out" (wiping) any connected drives. The utility enables users to select the target disk and specify the number of passes to be performed. Based on the user's inputs, the script generates a Diskpart configuration file and automates the sanitization process using Diskpart.
 <br />
 
-
 <h2>Languages and Utilities Used</h2>
+- <b>PowerShell</b>  
+- <b>Diskpart</b>  
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+<h2>Environment Used</h2>
+- <b>Windows 10</b> (21H2)  
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
+<h2>Program Walkthrough</h2>
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Launching the Disk Sanitization Utility"/>
+<br /><br />
+Select the disk: <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Selecting the Target Disk"/>
+<br /><br />
 Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Specifying the Number of Passes"/>
+<br /><br />
+Confirm your selection: <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Confirming Disk Sanitization Settings"/>
+<br /><br />
+Wait for the process to complete (this may take some time): <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization in Progress"/>
+<br /><br />
+Sanitization complete: <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Completed"/>
+<br /><br />
+Observe the wiped disk: <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Reviewing Wiped Disk"/>
 </p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
